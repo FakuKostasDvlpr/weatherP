@@ -1,0 +1,65 @@
+@media (max-width: 750px) {
+    form input {
+      padding: 20px 2px;
+    }
+  
+    input::placeholder {
+      font-size: 1.2rem;
+    }
+  
+    .weather-card {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .weather-info-container,
+    .weather-temp-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .weather-title {
+      font-size: 50px;
+    }
+    .weather-description {
+      font-size: 20px;
+    }
+  
+    .weather-img-container img {
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .weather-title {
+      font-size: 30px;
+    }
+    .weather-description {
+      font-size: 15px;
+    }
+  
+    .weather-img-container img {
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 335px) {
+    .weather-title {
+      font-size: 20px;
+    }
+  }
+  
+  .animate {
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

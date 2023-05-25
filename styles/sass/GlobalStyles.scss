@@ -1,0 +1,52 @@
+ @import 'contenedor';
+ @import 'cards';
+ @import 'mediasQ';
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(21, 32, 43);
+    background: linear-gradient(
+        190deg,
+        rgba(34, 37, 74, 1),
+        rgba(21, 32, 43, 1) 58%
+    );
+    height: 100%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 36px;
+    color: rgb(116, 127, 140);
+  }
+  
+  footer span {
+    color: #ceb02c;
+    font-weight: 800;
+  }
+  
+  .search-msg {
+    width: 100%;
+    text-align: center;
+  }
+
+  
+
